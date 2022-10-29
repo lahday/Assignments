@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>forms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="/success.html">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+    <label for="pword">Password:</label>
+    <input type="text" id="pword" name="pword" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+      title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+    <button> Login</button>
+  </form>
+  <p clas="register"> Don't have an account? <a href="/registration.html"> Register Here</a></p>
+
+
+
+</body>
+</html>

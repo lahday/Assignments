@@ -1,0 +1,82 @@
+html, body {
+  height: 100%;
+  width: 100%;  
+  background: aliceblue;
+}
+
+#nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #aed5ae;
+  color: black;
+  padding-left:15px;
+  padding-right: 15px;
+}
+
+.nav-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+#about,#home, #skill, #project, #contact{
+  padding-right: 10px;
+  color: black;
+}
+
+.logo{
+  font-weight: bold;
+}
+
+.footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+#mini-bio{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+}
+
+img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px
+}
+
+.bio-content{
+  padding-right: 15px;
+}
+
+.about-bio , #project-sect{
+  padding: 15px;
+}
+
+.project-list{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+a:link {
+  text-decoration: none;
+
+}
+
+#contact-sect{
+   background-color: #aed5ae;
+  color: black;
+  padding: 15px;
+}
+.contact-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact-head{
+  font-weight: bold;
+  font-style: uppercase;
+}
